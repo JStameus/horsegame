@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 45rem;
+    width: 80rem;
+    border: 2px dotted black;
+    border-radius: 4px;
+}
+
+h5 {
+    border: 1px dotted black;
+    background-color: darkgrey;
+}
+
+.window_generic {
+    border: 1px solid black;
+    padding: 0.5rem;
+    margin: 0.2rem;
+}
+
+#game_main {
+    display: flex;
+    flex-direction: row;
+}
+
+.game_side {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game_divider {
+    flex: 1;
+}
+
+img {
+    border: 1px solid darkgray;
+}
+
+#right img {
+    transform: scaleX(-1);
+}
+
+#left img:hover {
+    border: 1px dashed black;
+    background-color: rgb(224, 214, 159);
+}
+
+.choice_selected {
+    background-color: rgb(224, 214, 159);
+}
+
+.choice_winner {
+    background-color: rgb(92, 153, 92);
+}
+
+.choice_loser {
+    background-color: rgb(197, 111, 101);
+}
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hästjävel!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <h1>Hästjävel!</h1> -->
+    <img src="img_logo.png" alt="" height="140px">
+    <main>
+        <div id="game_main" class="window_generic">
+            <div id="left" class="window_generic game_side">
+                <img src="img_horse.png" width="180px" id="player_horse">
+                <img src="img_hay.png" width="180px" id="player_hay">
+                <img src="img_sword.png" width="180px" id="player_sword">
+            </div>
+            <div id="middle" class="game_divider"></div>
+            <div id="right" class="window_generic game_side">
+                <img src="img_horse.png" width="180px" id="enemy_horse">
+                <img src="img_hay.png" width="180px" id="enemy_hay">
+                <img src="img_sword.png" width="180px" id="enemy_sword">
+            </div>
+        </div>
+        <div id="game_ui" class="window_generic">
+            <h3 id="text_announcer">Waiting for your move...</h3>
+            <h3 id="text_wins">Wins: 0</h3>
+            <button id="button_reset">Play Again</button>
+        </div>
+    </main>
+    <script src="game.js"></script>
+</body>
+
+</html>
